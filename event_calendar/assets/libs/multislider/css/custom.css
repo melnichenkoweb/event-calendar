@@ -1,0 +1,91 @@
+.portfolio-festival-card{
+  height: 350px;
+}
+#exampleSlider {
+  position: relative;
+  /*border: 1px solid black;*/
+}
+#exampleSlider .MS-content {
+  margin: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  border: none;
+}
+#exampleSlider .MS-content .item {
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  border: none;
+  border-right: none;
+  width: 25%;
+}
+
+.MS-controls button {
+  position: absolute;
+  border: none;
+  background: transparent;
+  outline: 0;
+  top: 0;
+}
+.MS-controls button:hover {
+  cursor: pointer;
+}
+.MS-controls .MS-left {
+  left: 10px;
+}
+.MS-controls .MS-right {
+  right: 10px;
+}
+
+@media (min-width: 992px) and (max-width: 1600px){
+  .portfolio-festival-card{
+    height: 300px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1200px){
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider {
+    border-color: transparent;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content {
+    margin: 0;
+  }
+}
+/*@media (max-width: 1200px) {*/
+  /*#exampleSlider .MS-content .item {*/
+    /*width: 25%;*/
+  /*}*/
+/*}*/
+@media (max-width: 992px) {
+  #exampleSlider .MS-content .item {
+    width: 33.3333%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-content .item {
+    width: 50%;
+  }
+}
+@media (max-width: 767px) {
+  #exampleSlider .MS-controls button {
+    display: none;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-left {
+    left: -2px;
+  }
+}
+@media (max-width: 992px) {
+  #exampleSlider .MS-controls .MS-right {
+    right: -2px;
+  }
+}

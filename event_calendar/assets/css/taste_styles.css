@@ -1,0 +1,145 @@
+
+.additional-event-img{
+    width: 100px;
+}
+
+.detailed-page-link:hover{
+    text-decoration: none;
+}
+.detailed-page-link:hover .event-list-title{
+    color: #ee730a;
+}
+
+.event-filter .period_picker_input:hover:before{
+    background: #3b86b0;
+}
+
+.select2-container .select2-search--inline .select2-search__field {
+    font-size: 12px;
+}
+
+.period_picker_input {
+    line-height: 30px;
+    background: #ced4da;
+    color: #495057;
+}
+.period_picker_input:before{
+    box-shadow: none;
+}
+#periodpickerstart, #periodpickerend{
+    border-color: #ced4da;
+    border-radius: .25rem;
+}
+input[type="text"]{
+    background-color: #ffffff;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    width: 50%;
+    color: #dfd7d5;
+    text-align: center;
+    opacity: 1;
+}
+.carousel-control-next{
+    justify-content: flex-end;
+}
+.carousel-control-prev{
+    justify-content: flex-start;
+}
+#carouselExampleControlsMobile .carousel-control-next{
+    justify-content: flex-end;
+}
+#carouselExampleControlsMobile .carousel-control-prev{
+    justify-content: flex-start;
+}
+.carousel-control-prev .fa,
+.carousel-control-next .fa{
+    font-size: 5rem;
+}
+
+.carousel-control-next:focus,
+.carousel-control-next:hover,
+.carousel-control-prev:focus,
+.carousel-control-prev:hover {
+    color: #dfd7d5;
+    text-decoration: none;
+    outline: 0;
+    opacity: .6;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #000000;
+}
+.event_portfolio a:hover{
+    text-decoration: none;
+}
+.carousel-control-prev {
+    left: 15px;
+}
+.carousel-control-next {
+    right: 15px;
+}
+#carouselExampleControlsMobile .carousel-control-prev {
+    left: 15px;
+}
+#carouselExampleControlsMobile .carousel-control-next {
+    right: 15px;
+}
+.portfolio-image-mobile{
+    height: 200px;
+    width: auto !important;
+}
+.card-mobile{
+    border: none;
+    height: 320px;
+}
+
+@media (min-width: 992px) and (max-width: 1440px){
+    .event_portfolio .card-title{
+        font-size: 1rem;
+    }
+}
+@media (min-width: 992px) and (max-width: 1024px){
+    .vc-max-width-70 {
+        margin: 0 5%;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 576px) {
+    .additional-event-img{
+        width: 100%;
+    }
+    .detailed-img{
+        width: 100%;
+    }
+    .detailed-page-link,
+    .detailed-page-link img{
+        width: 100%;
+    }
+}
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 768px) {
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+    .vc-max-width-70 {
+        margin: 0 0;
+    }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1200px) {}

@@ -1,0 +1,36 @@
+@import "../libs/bootstrap/css/bootstrap.min.css";
+@import '../libs/jquery-ui/jquery-ui.min.css';
+@import '../libs/datetimepicker/build/jquery.datetimepicker.min.css';
+
+
+.editor-post-taxonomies__hierarchical-terms-choice{
+    font-size: 13px;
+}
+.editor-post-taxonomies__hierarchical-terms-choice label,
+.components-base-control__field label{
+    margin-bottom:0;
+}
+.composer-switch a{
+    line-height: 22px;
+    margin-bottom: 1rem;
+}
+.composer-switch a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.hndle{
+    font-weight: bold;
+}
+@media (min-width: 782px){
+    .edit-post-layout.is-sidebar-opened .edit-post-plugin-sidebar__sidebar-layout,
+    .edit-post-layout.is-sidebar-opened .edit-post-sidebar,
+    .editor-post-publish-panel{
+        width: 400px;
+    }
+}
+@media (min-width: 782px){
+    .edit-post-layout.is-sidebar-opened .edit-post-layout__content {
+        margin-right: 400px;
+    }
+}
+
