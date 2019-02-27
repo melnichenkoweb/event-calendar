@@ -1,0 +1,2 @@
+# event-calendar
+WordPress Plugin
